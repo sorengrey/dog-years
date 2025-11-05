@@ -13,11 +13,11 @@ body,
 }
 
 body {  
-  background-color: #cff8fe;
+  background-color: #aecfd8;
   background-image: linear-gradient(
     to bottom,
-    #cff8fe 0%,
-    #cff8fe 50%,
+    #aecfd8 0%,
+    #aecfd8 50%,
     #61a5b0 100%
   );
 }
@@ -33,7 +33,7 @@ button {
   border-radius: 8px;
   border: none;
   cursor: url('./cursor.png') 24 24, auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Softer shadow */
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2); /* Softer shadow */
   transition: background 0.3s; /* Smooth hover transition */
 }
 
@@ -68,10 +68,16 @@ main {
   padding: 0;
 }
 
-.huskyphoto {
+.dogphoto {
   margin-bottom: -4px;
-  max-width: 500px;
-  align-self: flex-start;
+  max-height: 500px;
+  /* align-self: flex-start; */
+}
+
+.dogphoto img {
+  width: 100%; 
+  height: auto;
+  display: block; 
 }
 
 .question {
@@ -84,7 +90,7 @@ main {
   border-radius: 8px;
   width: 100%;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
 
 
@@ -136,7 +142,6 @@ form {
 
 
 input[type="number"] {
-  /* width: 50px; */
   max-width: 60px;
   height: 35px;
   text-align: center;
@@ -215,11 +220,11 @@ footer {
     width: 80%;
   }
 
-  .huskyphoto {
+  .dogphoto {
     margin-left: 60px;
   }
 
-  .huskyphoto img {
+  .dogphoto img {
     max-width: 300px;
   }
 
@@ -263,12 +268,12 @@ footer {
     margin-top: 20px;
   }
 
-  .huskyphoto {
+  .dogphoto {
     margin-left: 80px;
   }
 
-  .huskyphoto img {
-    max-width: 200px;
+  .dogphoto img {
+    max-width: 100%;
   }
 
   h2 {

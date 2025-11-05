@@ -1,23 +1,23 @@
 import React, { useState } from "react";
-import huskyphoto from "./dog-photo.png";
+import dogphoto from "./dog-photo.png";
 import "./App.css";
 
-function calculateCatAgeFromYears(catYears) {
-  if (typeof catYears !== "number" || catYears < 0) {
+function calculateDogAgeFromYears(dogYears) {
+  if (typeof dogYears !== "number" || dogYears < 0) {
     return 0;
   }
 
-  if (catYears === 1) {
+  if (dogYears === 1) {
     return 15;
   }
 
-  if (catYears === 2) {
+  if (dogYears === 2) {
     return 24;
   }
 
-  if (catYears > 2) {
+  if (dogYears > 2) {
     let humanYears = 24;
-    const remainingYears = catYears - 2;
+    const remainingYears = dogYears - 2;
     humanYears += remainingYears * 4;
     return humanYears;
   }
@@ -48,7 +48,7 @@ const handleYearChange = (event) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Only calculate when form is submitted
-    const calculatedAge = calculateCatAgeFromYears(years);
+    const calculatedAge = calculateDogAgeFromYears(years);
     setHumanAge(calculatedAge);
   };
 
@@ -56,10 +56,10 @@ const handleYearChange = (event) => {
     <div className="App">
       <main>
         <div className="container">
-            <div className="huskyphoto">
+            <div className="dogphoto">
              <img
-              src={huskyphoto}
-              alt="a husky dog wearing purple sunglasses"/>
+              src={dogphoto}
+              alt="a dog wearing sunglasses"/>
             </div>
         
           <div className="question">
