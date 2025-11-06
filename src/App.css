@@ -70,8 +70,6 @@ main {
 
 .dogphoto {
   margin-bottom: -4px;
-  max-height: 500px;
-  /* align-self: flex-start; */
 }
 
 .dogphoto img {
@@ -92,7 +90,6 @@ main {
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
-
 
 .form-container {
   display: flex;
@@ -266,10 +263,6 @@ footer {
   .container {
     width: 90%;
     margin-top: 20px;
-  }
-
-  .dogphoto {
-    margin-left: 80px;
   }
 
   .dogphoto img {

@@ -18,7 +18,7 @@ function calculateDogAgeFromYears(dogYears) {
   if (dogYears > 2) {
     let humanYears = 24;
     const remainingYears = dogYears - 2;
-    humanYears += remainingYears * 4;
+    humanYears += remainingYears * 7;
     return humanYears;
   }
 
