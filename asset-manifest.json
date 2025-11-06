@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dog-years/static/css/main.c93cb62c.css",
+    "main.js": "/dog-years/static/js/main.e7422be3.js",
+    "static/js/453.68149c45.chunk.js": "/dog-years/static/js/453.68149c45.chunk.js",
+    "static/media/dog-photo.png": "/dog-years/static/media/dog-photo.c18ef2d06559fb4d16b8.png",
+    "index.html": "/dog-years/index.html",
+    "main.c93cb62c.css.map": "/dog-years/static/css/main.c93cb62c.css.map",
+    "main.e7422be3.js.map": "/dog-years/static/js/main.e7422be3.js.map",
+    "453.68149c45.chunk.js.map": "/dog-years/static/js/453.68149c45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c93cb62c.css",
+    "static/js/main.e7422be3.js"
+  ]
+}
